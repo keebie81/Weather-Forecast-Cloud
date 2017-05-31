@@ -1,5 +1,4 @@
 # Weather-Forecast-Cloud
-initial commit
 
 ![Clouds](clouds.png)
 
