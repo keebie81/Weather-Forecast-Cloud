@@ -1,6 +1,7 @@
 # Weather-Forecast-Cloud
 initial commit
-(clouds.jpg)
+
+![Clouds](clouds.png)
 
 This project is a cloud that will check the weather forecast using the Yahoo Weather API. If the forecasted weather for the next day is more than 10% hotter it will light up red. If the weather forecast is more than 10% colder it will light up gold. If neither condition is met it will stay blue. It also will blink if rain or snow is in the forecast.
 
