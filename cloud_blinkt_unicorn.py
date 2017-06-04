@@ -129,7 +129,7 @@ while True:
     # Subtracts 10% from todays low than checks to see if that is greater than tomorrows low.
     # If tomorrow is more than 10% colder the cloud should be gold
     if (int(today_low) -(int(today_low)*0.1)) > int(next_low):
-        gold_flamecloud = 1
+        gold_cloud = 1
     else:
         gold_cloud = 0
 
@@ -143,7 +143,7 @@ while True:
     # Check if cloud should be gold, we will let red always overide gold
     if gold_cloud == 1 and red_cloud == 0:
         if flicker == 0:
-            blink.set_all(115, 75, 0)  # Solid Gold Cloud
+            pixel.set_all(115, 75, 0)  # Solid Gold Cloud
         else:
             goldFlicker()
 
